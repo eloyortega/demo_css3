@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Poiret+One&display=swap');
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Poiret One', cursive;
+*/
+
+/* presets */
+*{
+	font-family:verdana;
+	color:#393938;
+	margin:0;
+	box-sizing:border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1.75px;
+}
+
+h1{
+	font-size:70px;
+	margin-bottom:20px;
+	color:#C5BCF4;
+}
+
+img{
+	width:auto;
+	max-width:100%;
+}
+
+.round{
+	border-radius: 50%;
+}
+
+.btn{
+	display:inline-block;
+	text-decoration: none;
+	border:1px solid #3C2B8C;
+	color:#3C2B8C;
+	padding:10px;
+	margin:10px 0px;
+	background:#fff;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	color:#fff;
+	background:#3C2B8C;
+	border:1px solid #fff;
+}
+
+/* nav */
+header{
+	border-bottom:1px solid #3C2B8C;
+	box-shadow:0px 5px 10px -5px #3C2B8C;
+	position:relative;
+}
+
+header > a{
+	display:block;
+	width:125px;
+	padding:10px;
+}
+
+nav{
+	position:absolute;
+	right:25px;
+	top:40px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	text-decoration: none;
+	font-size:18px;
+	color:#3C2B8C;
+	padding:5px;
+}
+
+nav a:hover{
+	color:#fff;
+	background:#C5BCF4;
+	border-radius:5px;
+}
+
+/* footer */
+footer{
+	background:#3C2B8C;
+}
+
+footer p{
+	color:#fff;
+}
+
+/* columns */
+.con12{
+	max-width:1200px;
+	margin:0 auto;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.confull{
+	display:flex;
+}
+
+.w100{
+	width:100%;
+}
+
+.w50{
+	width:50%;
+}
+
+.w33{
+	width:33.333333%;
+}
+
+.p10{
+	padding:10px;
+}
+
+.p20{
+	padding:20px;
+}
+
+.p80{
+	padding:80px 0px;
+}
+
+.tc{
+	text-align: center;
+}
+

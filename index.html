@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<title>Portfolio Site</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<style>
+		#hero{
+			min-height:50vh;
+			background:url(assets/img/bg.jpg);
+			background-size:cover;
+			background-position:center center;
+			display:flex;
+/*			justify-content: center;*/
+			align-items: center;
+		}
+		
+		#herocontent{
+			background:#3C2B8C;
+			max-width:600px;
+		}
+		
+		#herocontent h1, #herocontent p{
+			color:#fff;
+		}
+		
+		#cta{
+			background:#3C2B8C;
+			border-bottom: 1px solid #fff;
+			color:#fff;
+		}
+		
+		#cta h1, #cta p{
+			color:#fff;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<img src="assets/img/logo.png">
+		</a>
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="index.html#port">PORTFOLIO</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="hero">
+		<div id="herocontent" class="p20">
+			<h1>My Promise</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p><a href="contact.html" class="btn">Contact Me</a></p>
+		</div>
+	</div>
+	<div class="con12 tc p80">
+		<h1 class="w100">Featured Portfolio</h1>
+		<p class="w100">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="confull">
+			<div class="w33 p20">
+				<img src="assets/img/projectthumb1.jpg" class="round">
+				<h4>Project 1</h4>
+			</div>
+			<div class="w33 p20">
+				<img src="assets/img/projectthumb2.jpg" class="round">
+				<h4>Project 2</h4>
+			</div>
+			<div class="w33 p20">
+				<img src="assets/img/projectthumb3.jpg" class="round">
+				<h4>Project 3</h4>
+			</div>
+		</div>
+	</div>
+	<div id="cta" class="tc p80">
+		<div>
+			<h1>Contact Me Today</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p><a href="contact.html" class="btn">Contact Me</a></p>
+		</div>
+	</div>
+	
+	
+	<footer class="p20 tc">
+		<p>&copy; 2019. All rights reserved. </p>
+	</footer>
+</body>
+</html>
